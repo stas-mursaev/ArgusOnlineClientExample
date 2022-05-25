@@ -1,0 +1,16 @@
+{
+  "providerId": "Microsoft.Tools.ServiceModel.Svcutil",
+  "version": "2.0.3",
+  "options": {
+    "inputs": [
+      "https://www.argusmedia.com/ArgusWSVSTO/ArgusOnline.asmx?wsdl"
+    ],
+    "namespaceMappings": [
+      "*, WcfArgusOnline"
+    ],
+    "outputFile": "Reference.cs",
+    "serializerMode": "XmlSerializer",
+    "targetFramework": "net6.0",
+    "typeReuseMode": "All"
+  }
+}
